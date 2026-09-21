@@ -69,6 +69,8 @@ Use `INLINE` for normal content, `WRAP_SQUARE` or `WRAP_TOP_AND_BOTTOM` when tex
 
 Check `doc.getDocumentFlavor()` or `doc.isTraditional()` before page-specific work. A new Doc is Modern and pageless. Traditional section/page APIs reject Modern Docs; do not simulate pages with large spacers.
 
+`univer_import` imports `.docx` as Traditional by default so page size, orientation, margins, and headers/footers survive export. Pass `docType: "modern"` only when the user asks for a pageless document or the source has no page layout worth keeping: modern rewrites page geometry to a fixed layout and the source page setup cannot be recovered.
+
 For a Traditional Doc, insert a hard page boundary with one atomic section command:
 
 ```js
