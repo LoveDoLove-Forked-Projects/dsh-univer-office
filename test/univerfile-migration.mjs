@@ -164,7 +164,15 @@ try {
     const backups = files.filter((name) => name.startsWith(`failed-${failure}.univer.backup-`))
     assert.equal(backups.length, 1)
     assert.deepEqual(await readFile(join(workspace, backups[0])), before)
-    assert.ok(!files.some((name) => name.includes('.upgrade-') || name.endsWith('.upgrade.lock')))
+    assert.throws(() => api.openUniverfileSQLite(file), {
+      code: failure === 'foreign-key' ? 'UPGRADE_FAILED' : 'VERIFICATION_FAILED'
+    })
+    const afterRetry = await readdir(workspace)
+    const retried = afterRetry.filter((name) => name.startsWith(`failed-${failure}.univer.backup-`))
+    assert.deepEqual(retried, backups)
+    assert.ok(
+      !afterRetry.some((name) => name.includes('.upgrade-') || name.endsWith('.upgrade.lock'))
+    )
   }
 
   // An occupied upgrade lock rejects without touching source or creating a candidate.
@@ -271,6 +279,30 @@ try {
     1
   )
   assert.equal(api.detectUniverfileSQLiteFormat(concurrent), 'v3')
+
+  // The helper process exits before the original is replaced, including on platforms where an
+  // in-process rename would succeed. A second open must not leave another backup.
+  const subprocessFile = join(workspace, 'subprocess.univer')
+  createLegacy(subprocessFile, snapshot)
+  const subprocessOpened = api.openUniverfileSQLite(subprocessFile, { execution: 'subprocess' })
+  try {
+    assert.equal(subprocessOpened.upgrade.status, 'upgraded')
+    assert.equal(subprocessOpened.upgrade.sourceFormat, 'v2')
+    assert.equal(api.detectUniverfileSQLiteFormat(subprocessFile), 'v3')
+  } finally {
+    await subprocessOpened.dispose()
+  }
+  const subprocessAgain = api.openUniverfileSQLite(subprocessFile, { execution: 'subprocess' })
+  try {
+    assert.equal(subprocessAgain.upgrade.status, 'unchanged')
+  } finally {
+    await subprocessAgain.dispose()
+  }
+  assert.equal(
+    (await readdir(workspace)).filter((name) => name.startsWith('subprocess.univer.backup-'))
+      .length,
+    1
+  )
 
   // Unknown combinations and future versions must never be treated as an upgradable V2.
   for (const [component, version] of [
