@@ -2745,42 +2745,42 @@ packages:
     os: [win32]
 
   '@univer-cli/api-reference@1.0.2':
-    resolution: {integrity: sha512-HWYBWb+brH+kQxEystuOT5GmNEwgO16vGIXaskp2j063CHmrdF4ttUnV6z3LVhyPTu51SLslQh2sn82jdzWsEQ==}
+    resolution: {integrity: sha512-HWYBWb+brH+kQxEystuOT5GmNEwgO16vGIXaskp2j063CHmrdF4ttUnV6z3LVhyPTu51SLslQh2sn82jdzWsEQ==, tarball: https://registry.npmjs.org/@univer-cli/api-reference/-/api-reference-1.0.2.tgz}
 
   '@univer-cli/content-execution@1.0.2':
-    resolution: {integrity: sha512-c0llQYpAvgGxdp/Lz0VOEt/wmkyydy0A/nhjY7paDrXgoX0zyzPBV9oEUGZHYtJxp2zMEoMXXkGdFsjhVPEpsw==}
+    resolution: {integrity: sha512-c0llQYpAvgGxdp/Lz0VOEt/wmkyydy0A/nhjY7paDrXgoX0zyzPBV9oEUGZHYtJxp2zMEoMXXkGdFsjhVPEpsw==, tarball: https://registry.npmjs.org/@univer-cli/content-execution/-/content-execution-1.0.2.tgz}
 
   '@univer-cli/content-inspection@1.0.2':
-    resolution: {integrity: sha512-1BOSS4SSleUM5ld0NpNIZSXDMVCjkbtMer/zLirQDjenP3X7XxapK+IVNJPW8s/KWE4scv2YIHdcmKBZFb+U3w==}
+    resolution: {integrity: sha512-1BOSS4SSleUM5ld0NpNIZSXDMVCjkbtMer/zLirQDjenP3X7XxapK+IVNJPW8s/KWE4scv2YIHdcmKBZFb+U3w==, tarball: https://registry.npmjs.org/@univer-cli/content-inspection/-/content-inspection-1.0.2.tgz}
 
   '@univer-cli/headless-univer@1.0.2':
-    resolution: {integrity: sha512-JT0QzAY+eweGgCGMHF433o/Z3e6WcJqVHHc3K2lyhnWYPnKt2HgWpfj6cd9duATlLGsIJfcx6IsXgSsEE+u34g==}
+    resolution: {integrity: sha512-JT0QzAY+eweGgCGMHF433o/Z3e6WcJqVHHc3K2lyhnWYPnKt2HgWpfj6cd9duATlLGsIJfcx6IsXgSsEE+u34g==, tarball: https://registry.npmjs.org/@univer-cli/headless-univer/-/headless-univer-1.0.2.tgz}
 
   '@univer-cli/resource-library@1.0.2':
-    resolution: {integrity: sha512-wZkMqsiDj85lgESNTwGCeAxYVGY44sO/jM61x5uggbzHLJvc7o1fnS86rW+1HE7B5gpolgTtumYai7m5eg0MCw==}
+    resolution: {integrity: sha512-wZkMqsiDj85lgESNTwGCeAxYVGY44sO/jM61x5uggbzHLJvc7o1fnS86rW+1HE7B5gpolgTtumYai7m5eg0MCw==, tarball: https://registry.npmjs.org/@univer-cli/resource-library/-/resource-library-1.0.2.tgz}
 
   '@univer-cli/svg-facade@1.0.2':
-    resolution: {integrity: sha512-JJyiLnUdLLc53fgN2mrSwRA9WeGw4uwG3vO5OO3ZhFMYt6gbqQo7euHAlhs4W9CiPgi3Vnqoq+4avaf5ziBDKA==}
+    resolution: {integrity: sha512-JJyiLnUdLLc53fgN2mrSwRA9WeGw4uwG3vO5OO3ZhFMYt6gbqQo7euHAlhs4W9CiPgi3Vnqoq+4avaf5ziBDKA==, tarball: https://registry.npmjs.org/@univer-cli/svg-facade/-/svg-facade-1.0.2.tgz}
 
   '@univer-cli/unit-layout-lint@1.0.2':
-    resolution: {integrity: sha512-NZ+ecPFTUY5XfBfNoVfsgGmVOMTPuBDQrUoMNxh1yF42l384YyCWkRCUZPB6RIQStnpZmyzsvJpeM/fV1rgxqg==}
+    resolution: {integrity: sha512-NZ+ecPFTUY5XfBfNoVfsgGmVOMTPuBDQrUoMNxh1yF42l384YyCWkRCUZPB6RIQStnpZmyzsvJpeM/fV1rgxqg==, tarball: https://registry.npmjs.org/@univer-cli/unit-layout-lint/-/unit-layout-lint-1.0.2.tgz}
 
   '@univer-cli/unit-pdf-printer@1.0.2':
-    resolution: {integrity: sha512-9cF/JRE2jM2E/WwoL7GuIAMm2O001uEl1E6BAKKMieKiN7t8wU7k+kg8gNHjsy5Fngs1lQDfrN+E8/iylQlYcQ==}
+    resolution: {integrity: sha512-9cF/JRE2jM2E/WwoL7GuIAMm2O001uEl1E6BAKKMieKiN7t8wU7k+kg8gNHjsy5Fngs1lQDfrN+E8/iylQlYcQ==, tarball: https://registry.npmjs.org/@univer-cli/unit-pdf-printer/-/unit-pdf-printer-1.0.2.tgz}
 
   '@univer-cli/unit-screenshot@1.0.2':
-    resolution: {integrity: sha512-bsRD6ns/WTqQVQ/H3Yl8qfqfvVcarsdmCAGveBygjC5ev6ZQDd6/0b9vY4gKoSEfTh86ahtYq4jvsZqld/9owQ==}
+    resolution: {integrity: sha512-bsRD6ns/WTqQVQ/H3Yl8qfqfvVcarsdmCAGveBygjC5ev6ZQDd6/0b9vY4gKoSEfTh86ahtYq4jvsZqld/9owQ==, tarball: https://registry.npmjs.org/@univer-cli/unit-screenshot/-/unit-screenshot-1.0.2.tgz}
 
   '@univer-cli/univer-collaboration-runtime@1.0.2':
-    resolution: {integrity: sha512-mokaoDJkPVrjigWxAsUNvPE1EZPsbaalz4vp/RC8OSeZ/EpsC708aXY2EIbhLP46e+7Clg7dYeQshaLJIFHPsg==}
+    resolution: {integrity: sha512-mokaoDJkPVrjigWxAsUNvPE1EZPsbaalz4vp/RC8OSeZ/EpsC708aXY2EIbhLP46e+7Clg7dYeQshaLJIFHPsg==, tarball: https://registry.npmjs.org/@univer-cli/univer-collaboration-runtime/-/univer-collaboration-runtime-1.0.2.tgz}
 
   '@univer-cli/univer-render-page@1.0.2':
-    resolution: {integrity: sha512-+GDlDtGX+uSmjV4X+VAM+lxP/l8edWrrgTC/dQmaIi4/6jUKMbT7+kcIbU6CtRoinH4OR6fnGSpJdWrksBKupw==}
+    resolution: {integrity: sha512-+GDlDtGX+uSmjV4X+VAM+lxP/l8edWrrgTC/dQmaIi4/6jUKMbT7+kcIbU6CtRoinH4OR6fnGSpJdWrksBKupw==, tarball: https://registry.npmjs.org/@univer-cli/univer-render-page/-/univer-render-page-1.0.2.tgz}
     peerDependencies:
       '@univer-cli/univer-render-runtime': 1.0.2
 
   '@univer-cli/univer-render-runtime@1.0.2':
-    resolution: {integrity: sha512-Enoh82K+rELuYv/sevdhnGlnSVS5dtX7+GPzgVPV58ghVMgcOheYy/Cejf4yalWdd///4QzDzpCjpoOCD5zo1g==}
+    resolution: {integrity: sha512-Enoh82K+rELuYv/sevdhnGlnSVS5dtX7+GPzgVPV58ghVMgcOheYy/Cejf4yalWdd///4QzDzpCjpoOCD5zo1g==, tarball: https://registry.npmjs.org/@univer-cli/univer-render-runtime/-/univer-render-runtime-1.0.2.tgz}
 
   '@univerjs-pro/bases-dashboard-ui@1.0.2':
     resolution: {integrity: sha512-DvJwXhqZ1Ij4iPmawNzbMbCNl69m06xxJwO81X4wLI19N2iXVdYi3W7iQrPRV7FIkgMglcQqvpHiVssTAb7ygQ==, tarball: https://registry.npmjs.org/@univerjs-pro/bases-dashboard-ui/-/bases-dashboard-ui-1.0.2.tgz}
@@ -2901,25 +2901,25 @@ packages:
     resolution: {integrity: sha512-0ohoA3e4uPJHg5ZPV1UNZp/PJyOK45dD4KrhylTWfQXixelYaaTdwFeCO4lxVCOE3PSBGXhTYC4Fyenswgx6JQ==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-embed/-/collaboration-embed-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-endpoint@1.0.2':
-    resolution: {integrity: sha512-051n5/6glxNlTzKv317vExsBGVzCRt2bEqwgh9x/ikRuu3BcT01r5OKIsap7PHKEuBmKKaAtTiJUOy1JL177Fw==}
+    resolution: {integrity: sha512-051n5/6glxNlTzKv317vExsBGVzCRt2bEqwgh9x/ikRuu3BcT01r5OKIsap7PHKEuBmKKaAtTiJUOy1JL177Fw==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-endpoint/-/collaboration-endpoint-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-history-endpoint@1.0.2':
-    resolution: {integrity: sha512-RtMzjCqLRanAgqXiAnGJ/WpsTU/bezNpJvAu5Sughr8EZg0228SKWmYGBnddiRnD4PIohR1fLf8xb5jBPLd/7Q==}
+    resolution: {integrity: sha512-RtMzjCqLRanAgqXiAnGJ/WpsTU/bezNpJvAu5Sughr8EZg0228SKWmYGBnddiRnD4PIohR1fLf8xb5jBPLd/7Q==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-history-endpoint/-/collaboration-history-endpoint-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-history-service@1.0.2':
-    resolution: {integrity: sha512-qsKtGSVQKuSt5LH74OrC938uQjQEKMhqdVtPBJiJGCMsYoOviVH9Kw1PaMCLW5BiiZ/dmQ3Z4GvcgnfzuW0cdg==}
+    resolution: {integrity: sha512-qsKtGSVQKuSt5LH74OrC938uQjQEKMhqdVtPBJiJGCMsYoOviVH9Kw1PaMCLW5BiiZ/dmQ3Z4GvcgnfzuW0cdg==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-history-service/-/collaboration-history-service-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-service@1.0.2':
-    resolution: {integrity: sha512-ijQIHJwd6/8PEUdZ5eE9VOwZ/dSyv5Dt4yhtcTL1T4zAHcEFuQSpx97tAT8BXTWL3RERGVGPaDyIZfn9znZLuA==}
+    resolution: {integrity: sha512-ijQIHJwd6/8PEUdZ5eE9VOwZ/dSyv5Dt4yhtcTL1T4zAHcEFuQSpx97tAT8BXTWL3RERGVGPaDyIZfn9znZLuA==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-service/-/collaboration-service-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-transport-node@1.0.2':
-    resolution: {integrity: sha512-MgOxD33vCXQzFkqCRFR5OD1jjqKckHqfyyKcIb//GZdcKSf8aodVwkUqsd4GEGZ3JxmtWkdgn7IbNEZLUUmgpg==}
+    resolution: {integrity: sha512-MgOxD33vCXQzFkqCRFR5OD1jjqKckHqfyyKcIb//GZdcKSf8aodVwkUqsd4GEGZ3JxmtWkdgn7IbNEZLUUmgpg==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-transport-node/-/collaboration-transport-node-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-worktree-endpoint@1.0.2':
-    resolution: {integrity: sha512-M3M6z8IBbr2jrJfSjhznaM2xZYD+qOMZgf4a35z6OkhphSComWmkyJ7bEDRWxeZJu7lBwwiS5wKY/dVMkh7TsA==}
+    resolution: {integrity: sha512-M3M6z8IBbr2jrJfSjhznaM2xZYD+qOMZgf4a35z6OkhphSComWmkyJ7bEDRWxeZJu7lBwwiS5wKY/dVMkh7TsA==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-worktree-endpoint/-/collaboration-worktree-endpoint-1.0.2.tgz}
 
   '@univerjs-pro/collaboration-worktree-service@1.0.2':
-    resolution: {integrity: sha512-ZyY3pOxb0igRvnwPTtlAvyDj8WGaTYJd2yhRJwuXeJ5UQjZ4pC3foAmssmyobA068/lknU8BopAez39L50K9xw==}
+    resolution: {integrity: sha512-ZyY3pOxb0igRvnwPTtlAvyDj8WGaTYJd2yhRJwuXeJ5UQjZ4pC3foAmssmyobA068/lknU8BopAez39L50K9xw==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration-worktree-service/-/collaboration-worktree-service-1.0.2.tgz}
 
   '@univerjs-pro/collaboration@1.0.2':
     resolution: {integrity: sha512-qxDD0MH5ErODn5Bk7MFRDyoKKzlVaNnZfPx/XVc6pXt1J6SmwpXcqZBD9GzcD5l9CBxLRzAFqbNpyNKM5tl63Q==, tarball: https://registry.npmjs.org/@univerjs-pro/collaboration/-/collaboration-1.0.2.tgz}
@@ -3112,7 +3112,7 @@ packages:
     resolution: {integrity: sha512-b0jM8Snzlj99u68QnIasHD9YfPIHeV/CWqa7mng/1UpCXyxlyQLX0SunIDjhmpceXE9AM2HdmhdbZgBwpMyG/w==, tarball: https://registry.npmjs.org/@univerjs-pro/engine-formula-rust-binding/-/engine-formula-rust-binding-1.0.1.tgz}
 
   '@univerjs-pro/engine-formula-rust@1.0.2':
-    resolution: {integrity: sha512-+KuP6Iio0SWbejuB0VbzNzmWLKt8InIJdTFqH1SW23UoWQz2ajVSmFMYo0Xu2Rk+EeD5oOr8q9fkmjxQoZ7BpA==}
+    resolution: {integrity: sha512-+KuP6Iio0SWbejuB0VbzNzmWLKt8InIJdTFqH1SW23UoWQz2ajVSmFMYo0Xu2Rk+EeD5oOr8q9fkmjxQoZ7BpA==, tarball: https://registry.npmjs.org/@univerjs-pro/engine-formula-rust/-/engine-formula-rust-1.0.2.tgz}
     peerDependencies:
       rxjs: '>=7.0.0'
 
@@ -3162,7 +3162,7 @@ packages:
     resolution: {integrity: sha512-311g0Md7AIRl9o+OdNY0z9LQZih63j0h+0PHfMyEnhkZlILQXsGA1F5Sn6xG9so7enpa97fCgbBrpC9wz754/A==, tarball: https://registry.npmjs.org/@univerjs-pro/exchange-node-binding/-/exchange-node-binding-1.0.1.tgz}
 
   '@univerjs-pro/exchange-node@1.0.2':
-    resolution: {integrity: sha512-ULBW21D4ns658bnmqjiwrLWdDBoFmpR29aiwoa3Ck6L0YtTX56lhfLBh5FfRvEbHZeWb7c+AXRZ7lYsAXsTsBA==}
+    resolution: {integrity: sha512-ULBW21D4ns658bnmqjiwrLWdDBoFmpR29aiwoa3Ck6L0YtTX56lhfLBh5FfRvEbHZeWb7c+AXRZ7lYsAXsTsBA==, tarball: https://registry.npmjs.org/@univerjs-pro/exchange-node/-/exchange-node-1.0.2.tgz}
 
   '@univerjs-pro/ink-ui@1.0.2':
     resolution: {integrity: sha512-zbogwkuwprmurZhi9b4kN4rfzmyv2k9TXJptfb7yYhKZrSgDyzsCorzo0AkMRgT7Yu2cKUMbw4wP0YRb+d5TGQ==, tarball: https://registry.npmjs.org/@univerjs-pro/ink-ui/-/ink-ui-1.0.2.tgz}
@@ -3903,8 +3903,8 @@ packages:
   fast-diff@1.3.0:
     resolution: {integrity: sha512-VxPP4NqbUjj6MaAOafWeUn2cXWLcCtljklUtZf0Ind4XQ+QPtmA0b18zZy0jIQx+ExRVCR/ZQpBmik5lXshNsw==}
 
-  fast-uri@3.1.6:
-    resolution: {integrity: sha512-7Ical1vFEMr0onbVzEDIreM22I4khW+fzyQPwvAFWBp1iwdshSZRsL4jjRvPG9JP1uiqMHRto+YU6R2/CzDz5Q==}
+  fast-uri@3.1.8:
+    resolution: {integrity: sha512-GZMtZUTNRpOVIECoXwLNZS5xUGE+mVNbTB8h/7Rwh2TFWcBQiPzTgyZi05BF9UMZKkLJv8XBRJTlU7zg8+ZfMg==}
 
   fdir@6.5.0:
     resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
@@ -9159,7 +9159,7 @@ snapshots:
   ajv@8.20.0:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.1.6
+      fast-uri: 3.1.8
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -9398,7 +9398,7 @@ snapshots:
 
   fast-diff@1.3.0: {}
 
-  fast-uri@3.1.6: {}
+  fast-uri@3.1.8: {}
 
   fdir@6.5.0(picomatch@4.0.5):
     optionalDependencies:
